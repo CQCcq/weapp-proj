@@ -1,0 +1,96 @@
+
+.container_card{
+width: 100%;
+}
+.container_card .cart_route{
+  padding: 20rpx 20rpx;
+  width: calc(100% - 44rpx);
+  box-shadow: 1rpx 2rpx 1rpx #dddddd;
+  background-color: white;
+  border-radius: 20rpx;
+}
+
+.container_card .cart_route .cart_route_bottom{
+  padding: 20rpx 0rpx;
+  border-bottom: 1rpx solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+.container_card .cart_route .cart_route_top{
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+.container_card .cart_route .cart_route_bot{
+  padding-top: 20rpx;
+  border-bottom: 0px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+
+.container_card .cart_route .cart_route_bottom .item_pic{
+  width: 120rpx;
+  height: 120rpx;
+  background-color: red;
+}
+.container_card .cart_route .cart_route_top .item_pic{
+  width: 120rpx;
+  height: 120rpx;
+  background-color: red;
+}
+.container_card .cart_route .cart_route_bot .item_pic{
+  width: 120rpx;
+  height: 120rpx;
+  background-color: red;
+}
+.container_card .cart_route .cart_route_bot .item_content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  justify-content: space-between;
+}
+.container_card .cart_route .cart_route_bottom .item_content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  justify-content: space-between;
+}
+.container_card .cart_route .cart_route_top .item_content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  justify-content: space-between;
+}
+.container_card .cart_route .cart_route_top .item_content .title{
+  font-size: 42rpx;
+  font-weight: bolder;
+}
+
+.container_card .cart_route .cart_route_top .item_content .detail{
+  font-size: 36rpx;
+  font-weight: 200;
+  color: #cdd8d5;
+}
+
+.container_card .cart_route .cart_route_bottom .item_content .title{
+  font-size: 42rpx;
+  font-weight: bolder;
+}
+
+.container_card .cart_route .cart_route_bottom .item_content .detail{
+  font-size: 36rpx;
+  font-weight: 200;
+  color: #cdd8d5;
+}
+
+.container_card .cart_route .cart_route_bot .item_content .title{
+  font-size: 42rpx;
+  font-weight: bolder;
+}
+
+.container_card .cart_route .cart_route_bot .item_content .detail{
+  font-size: 36rpx;
+  font-weight: 200;
+  color: #cdd8d5;
+}

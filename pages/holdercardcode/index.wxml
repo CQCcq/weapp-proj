@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  股东卡号管理
+</view>

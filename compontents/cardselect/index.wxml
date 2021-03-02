@@ -1,0 +1,28 @@
+<!--logs.wxml-->
+<view class="container_card">
+  <view class="cart_route">
+     <block wx:for="{{cartList}}" wx:for-index="idx" wx:for-item="itemName" wx:key="this">
+      <view wx:if="{{idx === 0}}" class="cart_route_top" bindtap="onSelectItem" data-routeLink="{{itemName.routerLink}}"> 
+        <view class="item_pic">图片</view>
+        <view class="item_content">
+          <view class="title">{{itemName.title}}</view>
+          <view class="detail">{{itemName.detail}}</view>
+        </view>
+      </view>
+      <view wx:elif="{{idx === cartList.length - 1}}" class="cart_route_bot" bindtap="onSelectItem" data-routeLink="{{itemName.routerLink}}">
+        <view class="item_pic">图片</view>
+        <view class="item_content">
+          <view class="title">{{itemName.title}}</view>
+          <view class="detail">{{itemName.detail}}</view>
+        </view>
+      </view>
+      <view wx:else class="cart_route_bottom" bindtap="onSelectItem" data-routeLink="{{itemName.routerLink}}">
+        <view class="item_pic">图片</view>
+        <view class="item_content">
+          <view class="title">{{itemName.title}}</view>
+          <view class="detail">{{itemName.detail}}</view>
+        </view>
+      </view>
+    </block> 
+  </view>
+</view>

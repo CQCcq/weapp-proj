@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card-select": "../../compontents/cardselect"
+  },
+  "navigationBarTitleText": " "
+}

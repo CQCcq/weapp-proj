@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <card-select style="width:90%" cart-list="{{cartList}}" bindroutelink="onRouteLink" />
+</view>
